@@ -29,9 +29,9 @@ if test == "n":
     print("Es probable que tu medio de instalación este dañado o sea malicioso, vuelva a descargar la iso de nuevo desde la web del proyecto ArchLinux ")
     print(end)
 else:
-    if test == "y":{
+    if test == "y":
         print("Continuando con la instalación")
-    }
+
 keydist = input("Introduzca su codigo de distribución de teclado ") # Introducción de distribución de teclado
 os.system("loadkeys " + keydist)
 print("Procedamos a comprobar su metodo de arranque")
