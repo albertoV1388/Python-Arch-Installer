@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script para apredizaje y instalación de Arch Linux
+# Script para apredizaje e instalación de Arch Linux
 echo Easy Python Arch Linux Installer
 sleep 5
 echo Instalando Python...
